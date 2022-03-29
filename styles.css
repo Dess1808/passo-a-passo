@@ -16,7 +16,7 @@
 .backdoor{
     position: absolute;
     width: 8px;
-    height: 605px;
+    height: 660px;
     background-color: #dcdcdc;
     display: flex;
     justify-self: center;
@@ -36,6 +36,11 @@
 
 .number-left{
     transform: translateX(-82px);
+}
+
+.titulo-fluxo{
+    font-size: 200%;
+    padding-bottom: 20px;
 }
 
 /*CSS PARA AS BOX*/
