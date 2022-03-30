@@ -19,7 +19,7 @@
 }
 
 
-.box h2{
+.box-button h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,30 +35,52 @@
     transition: 0.1s ease;
 }
 
-.box h2:hover{
-    border: 2px solid rgba(0,0,0,.6);
+.box-button h2:hover{
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,.3);
 }
 
 
+/*PASSO PAGE*/
 .content-page-passo{
     position: absolute;
     display: flex;
-    justify-content: center;
-    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0,0,0,.9);
     width: 100vw;
     height: 100vh;
+
+    padding-top: 20px;
+
+    transition: 0.1s ease-in;
+    opacity: 0;
+    visibility: hidden;
 }
 
-.fechar{
-    position: absolute;
+.container-top{
+    display: flex;
     width: 100vw;
-    font-size: 310%;
-    margin-left: 60px;
+    justify-content: space-around;
+}
+
+.titulo-passo{
+    color: #fff;
+    font-size: 135%;
+    padding-bottom: 40px;
+}
+
+.fechar i{
+    font-size: 200%;
+    color: #fff;
+    cursor: pointer;
 }
 
 .container-passo{
     display: block;
-    width: 870px;
+    width: 854px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .box-passo{
@@ -106,11 +128,20 @@
 
 /*CONTROLES DE MARGENS*/
 .box-right{
-    margin-right: 30px;
+    margin-right: 80px;
     margin-left: 10px;
 }
 
 .box-left{
-    margin-left: 30px;
+    margin-left: 80px;
     margin-right: 10px
+}
+
+/*CONTROLE DE POSICAO DA BOX*/
+.box-passo-left{
+    justify-content: flex-start;
+}
+
+.box-passo-right{
+    justify-content: flex-end;
 }
