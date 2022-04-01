@@ -48,8 +48,8 @@
     justify-content: flex-start;
     align-items: center;
     background-color: rgba(0,0,0,.9);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
     padding-top: 20px;
 
@@ -78,7 +78,7 @@
 
 .container-passo{
     display: block;
-    width: 854px;
+    width: 826px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -87,6 +87,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box-passo i{
+    font-size: 400%;
+    color: #fff;
 }
 
 .box{
@@ -99,7 +104,6 @@
 
 .box h1{
     font-size: 120%;
-    background-color:#FFD700;
     border-radius: 20px 20px 0 0;
     font-weight: bold;
     color: #fff;
@@ -118,13 +122,20 @@
 
 .icon i{
     font-size: 321%;
-    color: #FFD700;
 }
 
-.number i{
-    font-size: 300%;
-    color: #FFD700;
+.fa-circle{
+    font-size: 421%;
+    /* color: #FFD700; */
 }
+
+
+/* .number .fa-1{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+} */
+
 
 /*CONTROLES DE MARGENS*/
 .box-right{
@@ -144,4 +155,198 @@
 
 .box-passo-right{
     justify-content: flex-end;
+}
+
+/* BOX PERSONALIZADO */
+/* PORTAL */
+.portal .box h1{
+    padding: 10px 0px;
+}
+
+.portal .number .fa-circle{
+    font-size: 421%;
+    color: #FFD700;
+
+}
+
+.portal .number .fa-1{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.portal .icon i{
+    color: #FFD700;
+}
+
+.portal .box h1{
+    background-color: #FFD700;
+}
+
+/* VIABILIDADE */
+.viabilidade .box h1{
+    padding: 10px 0px;
+}
+
+.viabilidade .number .fa-circle{
+    font-size: 421%;
+    color: #1E90FF;
+}
+
+.viabilidade .number .fa-2{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.viabilidade .icon i{
+    color: #1E90FF;
+}
+
+.viabilidade .box h1{
+    background-color: #1E90FF;
+}
+
+/* GERAR DBE */
+.dbe .box h1{
+    padding: 10px 0px;
+}
+
+.dbe .number .fa-circle{
+    font-size: 421%;
+    color: #DC143C;
+}
+
+.dbe .number .fa-3{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.dbe .icon i{
+    color: #DC143C;
+}
+
+.dbe .box h1{
+    background-color: #DC143C;
+}
+
+/* acessar-integrador */
+.acessar-integrador .box h1{
+    padding: 10px 0px;
+}
+
+.acessar-integrador .number .fa-circle{
+    font-size: 421%;
+    color:#00CED1;
+}
+
+.acessar-integrador .number .fa-4{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.acessar-integrador .icon i{
+    color:#00CED1;
+}
+
+.acessar-integrador .box h1{
+    background-color:#00CED1;
+}
+
+/* GERAR DAE ONLINE */
+.dae-online .box h1{
+    padding: 10px 0px;
+}
+
+.dae-online .number .fa-circle{
+    font-size: 421%;
+    color:#7FFF00;
+}
+
+.dae-online .number .fa-5{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.dae-online .icon i{
+    color:#7FFF00;
+}
+
+.dae-online .box h1{
+    background-color:#7FFF00;
+}
+
+/* SELECIONAR REGISTRO DIGITAL */
+.selecionar-registro-digital .box h1{
+    padding: 10px 0px;
+}
+
+.selecionar-registro-digital .number .fa-circle{
+    font-size: 421%;
+    color:#FF6347;
+}
+
+.selecionar-registro-digital .number .fa-6{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.selecionar-registro-digital .icon i{
+    color:#FF6347;
+}
+
+.selecionar-registro-digital .box h1{
+    background-color:#FF6347;
+}
+
+/* UTILIZAR REGISTRO AUTOMATICO utilizar-registro-automatico*/
+.utilizar-registro-automatico .box h1{
+    padding: 10px 0px;
+}
+
+.utilizar-registro-automatico .number .fa-circle{
+    font-size: 421%;
+    color:	#A020F0;
+}
+
+.utilizar-registro-automatico .number .fa-7{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.utilizar-registro-automatico .icon i{
+    color:	#A020F0;
+}
+
+.utilizar-registro-automatico .box h1{
+    background-color:	#A020F0;
+}
+
+/* EVIAR PARA A JUNTA envia-junta */
+.envia-junta .box h1{
+    padding: 10px 0px;
+}
+
+.envia-junta .number .fa-circle{
+    font-size: 421%;
+    color:	#B0E0E6;
+}
+
+.envia-junta .number .fa-8{
+    font-size: 300%;
+    color: #fff;
+    transform: translate(51px, -7px);
+}
+
+.envia-junta .icon i{
+    color:	#B0E0E6;
+}
+
+.envia-junta .box h1{
+    background-color:	#B0E0E6;
 }
